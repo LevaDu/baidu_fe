@@ -1,0 +1,220 @@
+<!--<html>-->
+<!--<head>-->
+    <!--<title>我的网页哟</title>-->
+    <!--<meta charset="UTF-8">-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<table align="center" bgcolor="pink">-->
+    <!--<tr><td>-->
+        <!--<p align="center"><font size="4px">申请表</font></p>-->
+        <!--<form method="post" action="">-->
+            <!--姓名：<input type="text"><br>-->
+            <!--密码：<input type="password"><br>-->
+            <!--感兴趣的职位：<br>-->
+            <!--<input name="radio" type="radio" value="Web设计" checked>Web设计&nbsp-->
+            <!--<input name="radio" type="radio" value="Web开发">Web开发<br>-->
+            <!--其他要求：<br>-->
+            <!--<textarea name="textarea" cols="22">包括薪水待遇、工作地点等。-->
+<!--</textarea><br>-->
+            <!--<input type="checkbox" name="checkbox" value="发送确认">发送确认<br>-->
+            <!--经验：<br>-->
+        <!--</form>-->
+
+    <!--</td><tr>-->
+<!--</table>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="utf-8">
+    <title>
+        我的第一个网页
+    </title>
+</head>
+<body>
+<h1>
+    <font color="red">
+        &nbsp;&quot;&lt;我的第一个标题&gt;&quot;&nbsp;&copy;
+    </font>
+</h1><br>
+
+
+<!--超链接&#45;&#45;页面内链接-->
+<a href="#helpme">[新人上路]</a><br>
+
+<h2>
+    我的第二个标题
+</h2>
+
+<p align="center">
+    <font size="+2" color="#ffc0cb" face="verdana">
+        <b>我的第一个段落</b>
+    </font>
+</p>
+<p align="left">我的第二个段落<br>
+    第二句话<br>
+    第三句话<br>
+</p>
+
+
+<a href="http://127.0.0.1">
+    <img align="top" src="头像.JPG" width="200" height="200" alt="点击进入禅道的登录界面"/>
+</a>
+<a id="1" href="https://www.baidu.com" target="_blank">
+    <i>
+        这里是百度主页
+    </i>
+</a>
+
+<hr size="1" color="yellow" width="1000">
+
+<p>
+    这个<br>
+    段落<br>
+    演示了分行的效果
+</p>
+
+<h4>这是一个有序列表</h4>
+<ol title="1">
+    <!--序号类型：1、a、A、i-->
+    <li>第一个</li>
+    <li>第二个</li>
+    <li>第三个</li>
+</ol>
+
+<h4>这是一个无序列表</h4>
+<ul type="circle">
+    <!--无序符号：disc、circle、square-->
+    <li>第一个</li>
+    <li>第二个</li>
+    <li>第三个</li>
+</ul>
+
+
+<!--预文本-->
+<pre>
+    <img src="头像.JPG" width="200" height="200" align="left"/>
+    随便写句话，今天礼拜五/
+
+    一口价：26.45元              大家好
+
+</pre>
+
+<!--走马灯效果
+说明：
+scrolldelay：表示滚动的延迟时间，默认为90；
+direction：表示滚动的方向，默认为从右向左。-->
+<marquee scrolldelay="100" direction="up">
+    滚动文字或图像
+</marquee>
+
+
+<!--超链接&#45;&#45;页面外链接-->
+<a href="http://www.sina.com">这是新浪首页</a><br><br>
+
+<!--超链接&#45;&#45;页面内链接-->
+<a name="helpme" color="blue">[新人上路指南]</a><br>
+
+
+<!--超链接&#45;&#45;链接到邮箱-->
+<a href="mailto:870426133@qq.com">我的邮箱</a><br>
+
+<!--走马灯效果-->
+<marquee scrolldelay="100">
+    水平滚动文字或图像
+</marquee>
+
+<hr color="red">
+
+<marquee scrolldelay="50">水平横溢</marquee>
+
+
+<!--接下来是表格-->
+<table style="border-collapse:collapse" align="center" border="1" cellpadding="10" cellspacing="10">
+    <tr>
+        <td colspan="5" align="center">学生信息表</td>
+    </tr>
+    <tr>
+        <td rowspan="4">详细信息</td>
+        <td>学号</td>
+        <td>姓名</td>
+        <td>性别</td>
+        <td>年龄</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>张三</td>
+        <td>男</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>李四</td>
+        <td>男</td>
+        <td>20</td>
+    </tr>
+    <tr bgcolor="#6495ed">
+        <td>3</td>
+        <td>小薇</td>
+        <td>女</td>
+        <td>17</td>
+    </tr>
+</table>
+
+<hr color="purple">
+
+<!--再下来是表单-->
+<!--<form name="表单" action="http://www.baidu.com" method="post">-->
+    <!--<p align="center">-->
+        <!--账&nbsp;&nbsp;号-->
+        <!--<input type="text" value="张三" size="20" maxlength="20">-->
+    <!--</p>-->
+    <!--<p align="center">-->
+        <!--密&nbsp;&nbsp;码-->
+        <!--<input type="password" value="" size="20" maxlength="6"><br>-->
+    <!--</p>-->
+
+    <!--<p align="center"><a charset="UTF-8" >记住密码<input type="checkbox" checked="checked"></a></p>-->
+    <!---->
+
+<!--</form>-->
+<table align="center" border="1">
+    <tr>
+        <td>
+            账&nbsp;&nbsp;号
+        </td>
+        <td>
+            <input type="text" value="张三" size="20" maxlength="20">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            密&nbsp;&nbsp;码
+        </td>
+        <td>
+            <input type="password" value="" size="20" maxlength="6">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p align="center"><a charset="UTF-8" >记住密码<input type="checkbox" checked="checked"></a></p>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+<!--HTML 是用来描述网页的一种语言。-->
+<!--HTML 指的是超文本标记语言: HyperText Markup Language-->
+<!--HTML 不是一种编程语言，而是一种标记语言-->
+<!--标记语言是一套标记标签 (markup tag)-->
+<!--HTML 使用标记标签来描述网页-->
+<!--HTML 文档包含了HTML 标签及文本内容-->
+<!--HTML文档也叫做 web 页面-->
